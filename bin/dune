@@ -1,0 +1,4 @@
+(executable
+ (public_name plasma_lines)
+ (name main)
+ (libraries claudius))
