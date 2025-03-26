@@ -1,7 +1,7 @@
 open Claudius
 
 
-(* Generate a grid-based pattern inspired by Vera Molnár *)
+(* This generates a grid-based pattern inspired by Vera Molnár *)
 let structured_grid t s =
   let width, height = Screen.dimensions s in
   let grid_size = 5 in  (* 5x5 grid *)
@@ -20,7 +20,7 @@ let structured_grid t s =
   ) in
   shapes
 
-(* Tick function generates structured movement *)
+(* The Tick function generates a structured movement *)
 let tick t s p _i =
   let shapes = structured_grid t s in
   Framebuffer.render p shapes;
@@ -29,4 +29,4 @@ let tick t s p _i =
 let () =
   Palette.of_list (0x000000 :: (List.rev (Palette.to_list (Palette.generate_plasma_palette 31)))) |> (* More structured palette *)
   Screen.create 800 800 1 |>
-  Base.run "Seed Lu's Structured Geometry" None tick
+  Base.run "Dr Seed Lu's Structured Geometry" None tick

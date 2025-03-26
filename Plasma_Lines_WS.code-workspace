@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"uri": "vscode-remote://wsl+ubuntu-22.04/mnt/c/Users/Seed/Documents/Claudiusprojects/plasma_lines"
+			"uri": "vscode-remote://wsl+ubuntu-22.04/home/drseedlu/MyClaudiusProjects/Claudiusprojects/plasma_lines"
 		}
 	],
 	"remoteAuthority": "wsl+ubuntu-22.04",
