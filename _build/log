@@ -2,7 +2,8 @@
 # OCAMLPARAM: unset
 # Shared cache: enabled-except-user-rules
 # Shared cache location: /home/drseedlu/.cache/dune/db
-# Workspace root: /mnt/c/Users/Seed/Documents/Claudiusprojects/plasma_lines
+# Workspace root:
+# /home/drseedlu/MyClaudiusProjects/Claudiusprojects/plasma_lines
 # Auto-detected concurrency: 4
 # Dune context:
 #  { name = "default"
@@ -13,4 +14,4 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ /home/drseedlu/.opam/default/bin/ocamlc.opt -config > /tmp/dune_8b17b8_output
+$ /home/drseedlu/.opam/default/bin/ocamlc.opt -config > /tmp/dune_3f0784_output
